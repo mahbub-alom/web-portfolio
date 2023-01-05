@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+header{
+    background: #FFF8F3;
+    background-image: url(../header_bg.png),url(../developer.png) ;
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 200px;
+}
+.primary-character{
+    color: #FD6E0A;
+}
+nav > h2{
+    font-size: 35px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav ul li{
+    list-style-type: none;
+    margin: 0 20px;
+}
+.btn-primary{
+    background: #FD6E0A;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    padding: 15px 25px;
+    border: none;
+    cursor: pointer;
+}
+.btn-secondary{
+    background: white;
+    border-radius: 5px;
+    color: #FD6E0A;
+    font-size: 20px;
+    padding: 15px 25px;
+    border: none;
+    cursor: pointer;
+    border: 1px solid #FD6E0A;
+    margin-left: 15px;
+}
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px 150px;
+}
+.banner h2{
+    color: rgba(0, 0, 0, 0.664);
+    font-size: 30px;
+}
+.banner h1{
+    padding: 15px 0;
+    font-size: 50px;
+}
+.banner p{
+    color: gray;
+    padding: 0 0 15px 0;
+}
+.about-section{
+    background: #FFF8F3;
+    border-radius: 10px;
+    margin: 50px 200px;
+    padding: 80px 80px;
+    text-align: center;
+}
+.about-section h2{
+    margin:0 0 35px 0
+}
+.about-section p{
+    color: gray;
+    margin-bottom: 35px;
+}
+.about-address{
+    display: flex;
+    justify-content: space-around;
+}
+.about-address ul li{
+    list-style-type: none;
+    font-weight: bold;
+}
+.about-address ul li:first-child{
+    color: gray;
+}
