@@ -91,3 +91,105 @@ nav ul li{
 .about-address ul li:first-child{
     color: gray;
 }
+.what-section{
+    text-align: center;
+    margin: 50px 200px;
+}
+.what-section p{
+    margin-top: 25px;
+    color: rgba(0, 0, 0, 0.445);
+}
+.all-products{
+    display: flex;
+    justify-content: space-around;
+    margin: 15px 60px;
+}
+.single-item{
+    padding: 20px 10px;
+    margin: 0 10px;
+    background-color:white;
+    border-radius: 5px;
+}
+.container{
+    background-color:rgba(245, 222, 179, 0.521);
+    padding: 15px 15px;
+}
+.single-item h2{
+    margin: 25px 0;
+}
+.single-item p{
+    color: rgba(0, 0, 0, 0.445);
+}
+
+.summary-tittle h2{
+    text-align: center;
+    margin: 100px 0 60px 0;
+    font-size: 35px;
+}
+.experience-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 90px;
+    grid-gap: 15px;
+}
+.single-experience{
+    border-bottom: 1px solid rgba(128, 128, 128, 0.527);
+    padding: 30px 0;
+}
+.single-experience h2{
+    color: rgba(0, 0, 0, 0.76);
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.single-experience h3{
+    color: rgba(0, 0, 0, 0.76);
+    margin-bottom: 10px;
+}
+.single-experience h4{
+    color: rgba(0, 0, 0, 0.575);
+    margin-bottom: 10px;
+}
+.single-experience p{
+    color: rgba(0, 0, 0, 0.562);
+}
+#experience-container > .experience-button{
+    text-align: center;
+    margin-top: -40px;
+    margin-bottom: 40px;
+}
+footer{
+    background-color: #FFF8F3;
+    display: flex;
+    margin-top: 100px;
+}
+.contact-container{
+    margin: 100px 50px;
+}
+.contact-container h2{
+    margin: 0 0 20px 0;
+}
+.contact-container p{
+    color: gray;
+    margin-bottom: 25px;
+}
+.contact-container img{
+    margin-right: 15px;
+}
+.contact-container input{
+    padding: 15px;
+}
+.first-input{
+    width: 400px;
+    border: none;
+}
+.second-input{
+    width: 400px;
+    margin: 30px 0;
+    border: none;
+}
+textarea{
+    padding: 15px;
+    border: none;
+    width: 400px;
+    margin-bottom: 30px;
+}
